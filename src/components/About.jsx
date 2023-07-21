@@ -15,10 +15,11 @@ const About = () => {
     <div className="md:px-10 px-7 sm:-mt-24" id="about">
       <h1 className="text-primary font-semibold text-3xl mt-5">About me:</h1>
       <p className="my-3 text-white md:w-2/3 leading-[2]">
-        Hi, my name is Willie Garrett, i am a Fullstack web developer, UI
-        designer, and Mobile developer. I jhave honed my skills in Web
-        Development and advance i have core understanding of advance UI design
-        principles. Here are the major skiills i have.
+        Hi, my name is Nabila Athifah Zahra, Information System Student at Universitas Pembangunan Nasional Veteran Jawa Timur. 
+        I have experience working in Agile software development environments and proficient in programming languages such as 
+        Java, Python, HTML, and SQL. Throughout my career, I have strong skills in team collaboration and developed a track 
+        record of improving software quality and reducing defects through effective testing and automation. I am passionate about 
+        technology, continuously learning and improving my skills to stay up-to-date with industry trends. 
       </p>
       <div className="md:flex my-7 items-center">
         <div className="text-primary text-8xl font-bold">5+</div>
