@@ -20,7 +20,7 @@ const Header = () => {
       <div className="md:flex items-center justify-between py-4 md:px-10 px-7">
         {/* logo section */}
         <div className="font-bold text-2xl cursor-pointer flex items-center gap-1">
-          <span className="text-primary hover:text-white">Willie Garrett</span>
+          <span className="text-primary hover:text-white">Nabila's Portofolio</span>
         </div>
         {/* Menu icon */}
         <div

@@ -3,21 +3,21 @@ import React from "react";
 const Projects = () => {
   const projects = [
     {
-      title: "TWINDER",
+      title: "SI PERPUS",
       description:
-        "A live Geolocation app for finding tweets and twitter users around you.",
+        "Sistem Informasi Perpustakaan aims to manage books on library. The main feature of this website is create, update, delete books. Using firebase as a cloud storage made this website efficient to manage data live Geolocation app for finding tweets and twitter users around you.",
       photo: "/src/assets/projects/img1.png",
     },
     {
-      title: "LIVENTS",
+      title: "APP MR. JACK",
       description:
-        "A video streaming app with live Geolocation, for streaming events.",
+        "Java is the most popular programming language using Object Oriented Programming (OOP). In this project, I created application for cashier management system in Warung Mr. Jack. The main feature for user admin is create, delete, update products, order processing, and print receipt",
       photo: "/src/assets/projects/img2.png",
     },
     {
-      title: "MOOVE",
+      title: "WEB Kampoeng Ilmu",
       description:
-        "Mobile app for booking instant pickup & dropoff accross major cities.",
+        "Kampoeng Ilmu is the largest center for bookstore in Surabaya, located at Jl. Semarang No.55, Surabaya. The main feature for end-users is displayed catalog products, order products, checkout, and receiving print order. While admin user can CRUD products, order processing, and sales report",
       photo: "/src/assets/projects/img3.png",
     },
   ];
