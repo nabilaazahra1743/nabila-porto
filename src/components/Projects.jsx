@@ -1,4 +1,5 @@
 import React from "react";
+import perpus from '../assets/perpus.png'
 
 const Projects = () => {
   const projects = [
@@ -6,19 +7,19 @@ const Projects = () => {
       title: "SI PERPUS",
       description:
         "Sistem Informasi Perpustakaan aims to manage books on library. The main feature of this website is create, update, delete books. Using firebase as a cloud storage made this website efficient to manage data live Geolocation app for finding tweets and twitter users around you.",
-      photo: "/src/assets/projects/img1.png",
+      photo: "/src/assets/perpus.png",
     },
     {
-      title: "APP MR. JACK",
+      title: "Business Dashboard",
       description:
-        "Java is the most popular programming language using Object Oriented Programming (OOP). In this project, I created application for cashier management system in Warung Mr. Jack. The main feature for user admin is create, delete, update products, order processing, and print receipt",
-      photo: "/src/assets/projects/img2.png",
+        "It's my project using on datawarehouse subject using OLAP. In this project, I created dashboard for business analytics in Market X. The dashboard contained information about sales, purchasing and warehousing. This project using SB admin 2 as bootsrap framewrok",
+      photo: "/src/assets/dashboard.png",
     },
     {
       title: "WEB Kampoeng Ilmu",
       description:
         "Kampoeng Ilmu is the largest center for bookstore in Surabaya, located at Jl. Semarang No.55, Surabaya. The main feature for end-users is displayed catalog products, order products, checkout, and receiving print order. While admin user can CRUD products, order processing, and sales report",
-      photo: "/src/assets/projects/img3.png",
+      photo: "/src/assets/kampoeng.png",
     },
   ];
   return (
@@ -52,9 +53,12 @@ const Projects = () => {
               </h3>
               <p className=" text-white mt-1">{project.description}</p>
               <div className="mt-5">
-                <button className="btn transition-all duration-500 bg-primary py-2 px-6 rounded text-white hover:bg-white hover:text-primary">
-                  About me
-                </button>
+                <a href="https://github.com/nabilaazahra1743">
+                  <button className="btn transition-all duration-500 bg-primary py-2 px-6 rounded text-white hover:bg-white hover:text-primary">
+                     Github
+                  </button>
+                </a>
+                
                 <button className="btn outline py-1.5 px-9 rounded border-none ml-5 text-white ">
                   Projects
                 </button>

@@ -8,11 +8,9 @@ const Footer = () => {
   return (
     <div className="md:px-10 px-7 mt-24">
       <div className="text-white opacity-50 flex flex-col md:flex-row justify-between items-center my-5">
-        <p>@ Copyright 2022 | Willie Garrett</p>
-        <p className="hidden sm:block">Fullstack Developer</p>
-        <p className="hidden sm:block">UI Designer</p>
-        <p className="hidden sm:block">Data Analyst</p>
-        <p className="hidden sm:block">Designed by @ernestechie</p>
+        
+        
+        
       </div>
       {/* social media */}
       <div className="flex mb-5 justify-center md:justify-start ">
